@@ -1,4 +1,10 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="device_button_event" id="Xbyr;|tQq3@?+-0dY-_Q" x="0" y="0"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_print_message" id="6dj9:#08mtIO;v_?|t?I"><value name="text"><shadow type="text" id="/^~hrj;u!;]j]5eJ|(T#"><field name="TEXT">dog</field></shadow></value><next><block type="controls_if" id="7uTf1TXg8`6Vv/vEdrzI"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean" id="Cp8WHG(zNJ7C5aqqcu@I"><field name="BOOL">TRUE</field></shadow><block type="logic_random" id="Q=kQ{p88)kNH|,sB,X4?"></block></value><statement name="DO0"><block type="device_show_leds" id="R_sIsv*]WEKW@AQiuI~j"><field name="LEDS">`
+<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="device_gesture_event" id="=[5;kKg:dodDK{%+Cvqt" x="521" y="-67"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="device_show_leds" id="e_3CQZt`k|CWn}xfpWC{"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . # . . 
+        . # . # . 
+        . . # . .
+        `</field></block></statement></block><block type="device_button_event" id="Xbyr;|tQq3@?+-0dY-_Q" x="0" y="0"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_print_message" id="6dj9:#08mtIO;v_?|t?I"><value name="text"><shadow type="text" id="/^~hrj;u!;]j]5eJ|(T#"><field name="TEXT">dog</field></shadow></value><next><block type="controls_if" id="7uTf1TXg8`6Vv/vEdrzI"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean" id="Cp8WHG(zNJ7C5aqqcu@I"><field name="BOOL">TRUE</field></shadow><block type="logic_random" id="Q=kQ{p88)kNH|,sB,X4?"></block></value><statement name="DO0"><block type="device_show_leds" id="R_sIsv*]WEKW@AQiuI~j"><field name="LEDS">`
         . . . . . 
         . . # # . 
         # # . # # 
@@ -10,7 +16,13 @@
         # # # # # 
         . # # # . 
         . . # . .
-        `</field></block></statement></block></next></block></statement></block><block type="device_button_event" id="O38jh]jmS%]sy19=]G/C" x="293" y="71"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_print_message" id="xOkJeg=||sz`At?wt:ph"><value name="text"><shadow type="text" id="P=PDrfHDBX,#tyaBiAS0"><field name="TEXT">person</field></shadow></value><next><block type="controls_if" id="4NF}-JtUuu~Ogin~Hr1/"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean" id="B7[uQHbUZn%OmwmyaO9A"><field name="BOOL">TRUE</field></shadow><block type="logic_random" id="R=:/R.`KDtcBEs0mK4e,"></block></value><statement name="DO0"><block type="device_show_leds" id="SwMtSpd1R%T[W7rs7N5`"><field name="LEDS">`
+        `</field></block></statement></block></next></block></statement></block><block type="device_gesture_event" id="mOGKw-C=hBP!C2t~A@DL" x="717" y="46"><field name="NAME">Gesture.LogoUp</field><statement name="HANDLER"><block type="device_show_leds" id="D93#~!K^mY+Ya?lZZ{R9"><field name="LEDS">`
+        . # . # . 
+        . . . . . 
+        # # # # # 
+        # # # # # 
+        . # # # .
+        `</field></block></statement></block><block type="device_button_event" id="O38jh]jmS%]sy19=]G/C" x="293" y="71"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_print_message" id="xOkJeg=||sz`At?wt:ph"><value name="text"><shadow type="text" id="P=PDrfHDBX,#tyaBiAS0"><field name="TEXT">person</field></shadow></value><next><block type="controls_if" id="4NF}-JtUuu~Ogin~Hr1/"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean" id="B7[uQHbUZn%OmwmyaO9A"><field name="BOOL">TRUE</field></shadow><block type="logic_random" id="R=:/R.`KDtcBEs0mK4e,"></block></value><statement name="DO0"><block type="device_show_leds" id="SwMtSpd1R%T[W7rs7N5`"><field name="LEDS">`
         . . . . . 
         . # . # . 
         # # # # # 
@@ -20,12 +32,18 @@
         . # # # . 
         # # # # # 
         # . # . # 
+        # # . # # 
+        . # # # .
+        `</field></block></statement></block></next></block></statement></block><block type="device_gesture_event" id="^yf(`X/tRY?_B:QFy)U$" x="745" y="102"><field name="NAME">Gesture.FreeFall</field><statement name="HANDLER"><block type="device_show_leds" id=")p}pgw.x]1$o/BOOFD)C"><field name="LEDS">`
         . # . # . 
-        . . # . .
-        `</field></block></statement></block></next></block></statement></block><block type="device_button_event" id="KDTDG1~}omgt;rD(mm+x" x="569" y="360"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="device_print_message" id="J5dieb^3rDw@ko|6RF^e"><value name="text"><shadow type="text" id="4M|}`cEPCLhz2V%nn1GQ"><field name="TEXT">mouse</field></shadow></value><next><block type="controls_if" id="]xiYAReXh,6vrZ`N2fR_"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean" id="R??I#0.oPF/q+~3bgW^t"><field name="BOOL">TRUE</field></shadow><block type="logic_random" id="WqxPN9Xn2t@PZ=5GoEY4"></block></value><statement name="DO0"><block type="device_show_leds" id="v!{AWi@R!`3NY7/_m_~q"><field name="LEDS">`
         . . . . . 
+        . # # # . 
+        # # # # # 
+        # # # # #
+        `</field></block></statement></block><block type="device_button_event" id="KDTDG1~}omgt;rD(mm+x" x="569" y="360"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="device_print_message" id="J5dieb^3rDw@ko|6RF^e"><value name="text"><shadow type="text" id="4M|}`cEPCLhz2V%nn1GQ"><field name="TEXT">mouse</field></shadow></value><next><block type="controls_if" id="]xiYAReXh,6vrZ`N2fR_"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean" id="R??I#0.oPF/q+~3bgW^t"><field name="BOOL">TRUE</field></shadow><block type="logic_random" id="WqxPN9Xn2t@PZ=5GoEY4"></block></value><statement name="DO0"><block type="device_show_leds" id="v!{AWi@R!`3NY7/_m_~q"><field name="LEDS">`
         . . # # . 
-        # # # # . 
+        . . # # . 
+        # # . . . 
         # # . . . 
         . # . . .
         `</field></block></statement><statement name="ELSE"><block type="device_show_leds" id="wu5p%U![+PBC~Zqnv##L"><field name="LEDS">`

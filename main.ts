@@ -1,3 +1,21 @@
+input.onGesture(Gesture.LogoUp, function () {
+    basic.showLeds(`
+        . # . # .
+        . . . . .
+        # # # # #
+        # # # # #
+        . # # # .
+        `)
+})
+input.onGesture(Gesture.FreeFall, function () {
+    basic.showLeds(`
+        . # . # .
+        . . . . .
+        . # # # .
+        # # # # #
+        # # # # #
+        `)
+})
 input.onButtonPressed(Button.A, function () {
     basic.showString("dog")
     if (Math.randomBoolean()) {
@@ -18,13 +36,22 @@ input.onButtonPressed(Button.A, function () {
             `)
     }
 })
+input.onGesture(Gesture.Shake, function () {
+    basic.showLeds(`
+        . . . . .
+        . # . # .
+        . . # . .
+        . # . # .
+        . . # . .
+        `)
+})
 input.onButtonPressed(Button.AB, function () {
     basic.showString("mouse")
     if (Math.randomBoolean()) {
         basic.showLeds(`
-            . . . . .
             . . # # .
-            # # # # .
+            . . # # .
+            # # . . .
             # # . . .
             . # . . .
             `)
@@ -53,8 +80,8 @@ input.onButtonPressed(Button.B, function () {
             . # # # .
             # # # # #
             # . # . #
-            . # . # .
-            . . # . .
+            # # . # #
+            . # # # .
             `)
     }
 })
